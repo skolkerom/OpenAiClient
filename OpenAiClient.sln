@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpenAiClient", "OpenAiClient.fsproj", "{791CE6B2-7057-4BFB-A381-3EB4C06FD27E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpenAi.SpecificationConverter", "OpenAi.SpecificationConverter\OpenAi.SpecificationConverter.fsproj", "{24B64175-EE42-4305-90CB-4B9DBE1C00BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAi.App.CSharp", "OpenAi.App.CSharp\OpenAi.App.CSharp.csproj", "{0B0F8C36-31C3-496D-A225-B5A092E803F1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpenAi.App.FSharp", "OpenAi.App.FSharp\OpenAi.App.FSharp.fsproj", "{120F2DD2-81B9-4670-B76D-9DE75B0E41CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791CE6B2-7057-4BFB-A381-3EB4C06FD27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791CE6B2-7057-4BFB-A381-3EB4C06FD27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791CE6B2-7057-4BFB-A381-3EB4C06FD27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791CE6B2-7057-4BFB-A381-3EB4C06FD27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B64175-EE42-4305-90CB-4B9DBE1C00BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B64175-EE42-4305-90CB-4B9DBE1C00BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B64175-EE42-4305-90CB-4B9DBE1C00BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B64175-EE42-4305-90CB-4B9DBE1C00BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0F8C36-31C3-496D-A225-B5A092E803F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0F8C36-31C3-496D-A225-B5A092E803F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0F8C36-31C3-496D-A225-B5A092E803F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0F8C36-31C3-496D-A225-B5A092E803F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120F2DD2-81B9-4670-B76D-9DE75B0E41CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120F2DD2-81B9-4670-B76D-9DE75B0E41CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120F2DD2-81B9-4670-B76D-9DE75B0E41CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120F2DD2-81B9-4670-B76D-9DE75B0E41CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

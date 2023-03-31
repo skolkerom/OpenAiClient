@@ -1,0 +1,15 @@
+STORAGE: NONE
+RESTRICTION: || (== net5.0) (== netstandard2.0) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (7.0.200)
+    FSharp.Data (5.0.2)
+      FSharp.Core (>= 5.0.1)
+    Newtonsoft.Json (13.0.3)
+    OpenAPIParser (2.0.1)
+      FSharp.Core (>= 4.3.4)
+      Newtonsoft.Json (>= 10.0.1)
+      YamlDotNet (>= 4.3.1)
+    OpenAPITypeProvider (2.3)
+      OpenAPIParser (>= 2.0.1 < 3.0)
+    YamlDotNet (13.0.2)
