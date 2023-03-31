@@ -5,7 +5,7 @@ OpenAI API provider for .NET Core
 ### Configuration
 Add appsettings.json 
 
-```
+```json
 {
     "OpenAi": {
         "ApiToken": "<API_TOKEN>"
@@ -16,8 +16,7 @@ Add appsettings.json
 ### C#
 
 Read API token from appsettings.json
-
-```
+```cs
 using Microsoft.Extensions.Configuration;
 using static OpenAiClient.Contracts;
 using static OpenAi.OpenAi;
@@ -28,7 +27,7 @@ Connect(apiToken);
 ```
 
 #### Usage
-```
+```cs
 var models = await ListModels();
 
 var model = await RetrieveModel("text-davinci-003");
@@ -63,7 +62,7 @@ var moderation = await CreateModeration("I want to kill them.");
 
 Read API token from appsettings.json
 
-```
+```fs
 open System
 open Microsoft.Extensions.Configuration
 open OpenAiClient.Contracts
@@ -75,7 +74,7 @@ Connect(apiToken)
 ```
 
 #### Usage
-```
+```fs
 let models = ListModels() |> Async.AwaitTask |> Async.RunSynchronously
 
 let model = RetrieveModel("text-davinci-003") |> Async.AwaitTask |> Async.RunSynchronously
@@ -104,4 +103,3 @@ let fineTuneEvents = ListFineTuneEvents(fineTuneJob.Id, false) |> Async.AwaitTas
 
 let moderation = CreateModeration("I want to kill them.") |> Async.AwaitTask |> Async.RunSynchronously
 ```
-
