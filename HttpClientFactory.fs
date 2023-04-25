@@ -10,8 +10,8 @@ let Create apiToken =
     let acceptJsonHandler = new AcceptJsonHandler()
     acceptJsonHandler.InnerHandler <- new HttpClientHandler()
     let jsonSerializationHandler = new JsonSerializationHandler(acceptJsonHandler)
-    let logHandler = new LogHandler(jsonSerializationHandler)
-    let httpClient = new HttpClient(logHandler)
+    //let logHandler = new LogHandler(jsonSerializationHandler)
+    let httpClient = new HttpClient(jsonSerializationHandler)
     httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiToken}")
     httpClient.BaseAddress <- Uri("https://api.openai.com/v1/")
     
