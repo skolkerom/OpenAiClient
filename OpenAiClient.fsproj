@@ -18,5 +18,4 @@
     <PackageReference Include="Microsoft.OpenApi.Readers" Version="1.6.3" />
     <PackageReference Include="SwaggerProvider" Version="1.0.1" />
   </ItemGroup>
-  <Import Project=".paket\Paket.Restore.targets" />
 </Project>
